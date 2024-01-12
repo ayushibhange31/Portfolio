@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Task4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .for-head {
+        background-image: url(headimg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+        width: 100%;
+    }
+    .heading{
+        text-align: center;
+        padding-top: 25vh;
+    }
+    .heading .fs-2{
+        font-family: cursive;
+    }
+    .for-cards span{
+         border-radius: 50%;
+         display: grid;
+         width: 5rem;
+         height: 5rem;
+         font-size: 2rem;
+         background-color: gold;
+         text-align: center;
+         padding: 20px;
+    }
+    .for-cards .card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border: none;
+    }
+    .cards2{
+        background-color: gainsboro;
+    }
+    .for-card2 img{
+        height: 70%;
+    }
+</style>
+
+<body>
+    <div class="main-container">
+        <div class="for-head" style="color: black;">
+
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand text-warning" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="ms-auto">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active text-light" aria-current="page" href="#">SERVICES</a>
+                                <a class="nav-link text-light" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-light" href="#">ABOUT</a>
+                                <a class="nav-link text-light" href="#">TEAM</a>
+                                <a class="nav-link text-light" href="#">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="heading">
+                <p class="fs-2 text-light fw-bold">Welcome To Our Studio!</p>
+                <p class="fs-1 text-light fw-bolder">IT'S NICE TO MEET YOU</p>
+                <button type="button" class="btn btn-warning rounded-0 text-light fw-bold">Tell Me More</button>
+            </div>
+        </div>
+    <div class="cards">
+        <div class="title text-center">
+        <p class="fs-2 fw-bolder">SERVICES</p>
+         <p>Lorem ipsum dolor amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="for-cards">
+        <div class="card-group p-5 m-5">
+            <div class="card text-center">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">E-commerce</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="card">
+                <span><i class="fa-solid fa-laptop"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Resonsive Site</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span><i class="fa-solid fa-lock"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Web Security</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards2 text-center px-5">
+            <p class="fs-1">PORTFOLIO</p>
+            <p class="fs-5">Lorem ipsum site edit for the content.</p>
+            <div class="for-card2">
+                <div class="card-group">
+                    <div class="card mx-3">
+                      <img src="card1.jpeg" class="card-img-top" alt="Round Icons">
+                      <div class="card-body">
+                        <h5 class="card-title">Round Icons</h5>
+                        <p class="card-text"><small class="text-body-secondary">Graphic design</small></p>
+                      </div>
+                    </div>
+                    <div class="card mx-3">
+                      <img src="card3.jpeg" class="card-img-top" alt="Stratup Framework">
+                      <div class="card-body">
+                        <h5 class="card-title">Startup Framework</h5>                       
+                        <p class="card-text"><small class="text-body-secondary">Website Design</small></p>
+                      </div>
+                    </div>
+                    <div class="card mx-3">
+                      <img src="card2.jpeg" class="card-img-top" alt="Treehouse">
+                      <div class="card-body">
+                        <h5 class="card-title">Treehouse</h5>
+                        <p class="card-text"><small class="text-body-secondary">Website Design</small></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

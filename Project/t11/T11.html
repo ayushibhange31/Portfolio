@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boottrap Task T11</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .cl-img {
+        position: absolute;
+        top: 25%;
+    }
+
+    .card-img-top {
+        position: relative;
+    }
+
+    .for-image {
+        background-color: white;
+        width: 20rem;
+    }
+</style>
+
+<body>
+    <div class="main-body" style="background-color: whitesmoke;">
+        <div class="for-nav ">
+            <nav class="navbar navbar-expand-lg m-0 p-0">
+                <div class="container-fluid" style="background-color: rgb(55, 143, 224);">
+                    <img src="iconimg.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-medium text-light " aria-current="page" href="#"> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="color: gainsboro;" aria-disabled="true">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="color: gainsboro;" aria-disabled="true">Messages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="color: gainsboro;" aria-disabled="true">Docs</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <span><i class="fa-solid fa-bell fs-4 pt-1 pe-2" style="color: gainsboro;"></i></span>
+                            <img src="icon2img.jpg" class="img rounded-circle" style="width: 5%; height: 2%;" alt="">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="content ">
+            <div class="row m-0">
+                <div class="col-lg-3 col-md-3 col-sm-3 ps-5 pt-3">
+                    <div class="row">
+                        <div class="card"
+                            style="width: 18rem; height: 25rem; position: relative; background-color: white;">
+                            <img src="mainimg.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center cl-img ">
+                                <img src="icon2img.jpg" style="border-radius: 50%; width: 30%; height: 10%;" alt="">
+                                <h5 class="card-title">Dave Gamache</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                                <div class="row ">
+                                    <div class="col-6" style="border-right: 1px solid ;">
+                                        <p class="for-text"> Friends </p><strong>12</strong>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Enemies </p><strong>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">About. <span><a href="#" style="text-decoration: none;">
+                                            Edit</a></span>
+                                </h5>
+                                <div class="row">
+                                    <span><i class="fa-solid fa-calendar-days fs-4 pt-2"></i> Went to <span
+                                            style="color: rgb(80, 175, 238);">Oh,Canada</span></span>
+                                </div>
+                                <div class="row">
+                                    <span><i class="fa-solid fa-users fs-4"></i>Became friend wid <span
+                                            style="color: rgb(80, 175, 238);">Obama</span></span>
+                                </div>
+                                <div class="row">
+                                    <span><i class="fa-brands fa-github-alt fs-4"></i> Worked at <span
+                                            style="color: rgb(80, 175, 238);">GitHub</span></span>
+                                </div>
+                                <div class="row">
+                                    <span><i class="fa-solid fa-house fs-4"></i> Lives in <span
+                                            style="color: rgb(80, 175, 238);">San Francisco,CA</span></span>
+                                </div>
+                                <div class="row">
+                                    <span><i class="fa-solid fa-location-dot fs-4"></i> From <span
+                                            style="color: rgb(80, 175, 238);">Seattle,WA</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <p class="for-head fw-medium">Photos <span><a href="#"
+                                            style="text-decoration: none;">.Edit</a></span></p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="crd1.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="crd2.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                </div> <br>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="crd3.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="crd4.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                </div> <br>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="crd5.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="crd6.jpg" style="width: 7rem; height: 8rem;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 p-3">
+                    <div class="row" style="background-color:white; border: 1px solid gainsboro;">
+                        <div class="col p-2">
+                            <input class="form-control me-2" type="search" placeholder="Message" aria-label="Message">
+                        </div>
+
+                    </div>
+                    <div class="row p-2" style="background-color: white; border: 1px solid gainsboro;">
+                        <div class="col-2">
+                            <img src="icon2img.jpg" style="width: 100%; border-radius: 50%;" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="fs-4 fw-medium">Dave Gamache</p>
+                            <p class="for-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius inventore
+                                qui perspiciatis rem incidunt illo libero ducimus at velit, placeat recusandae doloribus
+                                vero nihil vel repudiandae possimus nostrum quae accusamus.</p>
+
+                            <div class="row">
+                                <div class="col-7">
+                                    <img src="crd1.jpg" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <img src="crd2.jpg" style="width: 100%; height: 100%;" alt="">
+                                </div>
+                            </div>
+
+                            <div class="row pt-2">
+                                <div class="col-5">
+                                    <img src="crd3.jpg" style="width: 100%; height: 100%" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <img src="crd4.jpg" style="width: 100%;" alt="">
+                                </div>
+                            </div>
+
+                            <div class="row pt-4">
+                                <div class="col-2">
+                                    <img src="icon3img.jpg" style="border-radius: 50%; width: 60%;" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p> <strong>John Thornton:</strong> Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Rerum nihil et quia cupiditate nobis qui quasi odit labore
+                                        repellat debitis fugiat sequi mollitia minus nostrum fuga quos, sit, obcaecati
+                                        voluptatibus.</p>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-2">
+                                    <img src="icon4img.jpg" style="border-radius: 50%; width: 60%;" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p> <strong>Mark Otto:</strong> Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Rerum nihil et quia cupiditate nobis qui quasi odit labore
+                                        repellat debitis fugiat sequi mollitia minus nostrum fuga quos, sit, obcaecati
+                                        voluptatibus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-2" style="background-color: white;  border: 1px solid gainsboro;">
+                        <div class="col-2">
+                            <img src="icon3img.jpg" style="width: 100%; border-radius: 50%;" alt="">
+                        </div>
+                        <div class="col-10 ">
+                            <p class="fs-4 fw-medium"> John Thornton</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus aspernatur
+                                maiores quasi, temporibus dolorum eum delectus harum voluptate eos, praesentium
+                                laboriosam consectetur amet tempora molestias perspiciatis deleniti libero modi!</p>
+                        </div>
+                    </div>
+                    <div class="row pt-2" style="background-color: white;  border: 1px solid gainsboro;">
+                        <div class="col-2">
+                            <img src="icon4img.jpg" style="width: 100%; border-radius: 50%;" alt="">
+                        </div>
+                        <div class="col-10 ">
+                            <p class="fs-4 fw-medium"> Mark Otto</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus aspernatur
+                                maiores quasi, temporibus dolorum eum delectus harum voluptate eos, praesentium
+                                laboriosam consectetur amet tempora molestias perspiciatis deleniti libero modi!</p>
+                            <img src="uploadimg.jpg" style="width: 80%;" alt="">
+
+                            <div class="row pt-3">
+                                <div class="col-2">
+                                    <img src="icon2img.jpg" style="width: 80%; border-radius: 50%;" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p><strong>Dave Gamache:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Mollitia beatae, esse eaque aperiam dolore nisi, iusto accusantium
+                                        perspiciatis voluptatibus fuga ipsam dolores non deserunt, voluptatem obcaecati?
+                                        Ullam quidem ratione dicta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 pt-3">
+                    <div class="for-heading pe-2 ps-2">
+                    <div class="row" style="background-color: bisque;">
+                        <div class="col-11">
+                            <p><strong>Visit your profile!</strong> Check your self, you aren't looking well. Here is
+                                more informtion.</p>
+                        </div>
+                        <div class="col-1">
+                            <span><i class="fa-solid fa-xmark"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col">
+                            <div class="card">
+                                <p class="fs-5 fw-medium"> Sponsored</p>
+                                <img src="icelandimg.jpg" class="card-img-top p-3" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">It might be time to visit iceland.</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eligendi nihil laudantium reprehenderit repellat aliquam dignissimos, esse iure
+                                        soluta odio, sint accusantium sequi, aspernatur fugit? Aperiam omnis officiis
+                                        quis amet illo.</p>
+                                    <a href="#" class="btn btn-outline-primary">Buy a ticket</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-2">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title fs-5">Likes <a href="#" style="text-decoration: none; font-size:medium;">View All</a></h5>
+                                  <div class="row pt-2">
+                                    <div class="col-2">
+                                        <img src="icon3img.jpg" style="width: 100%; border-radius: 80%;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <p><strong>Jacob Thornton</strong> @fat</p>
+                                        <button type="button" class="btn btn-outline-primary fw-medium"><span><i class="fa-solid fa-user"></i><i class="fa-solid fa-plus"></i></span> Follow</button>
+                                    </div>
+                                    <div class="col-2 pt-3">
+                                        <img src="icon4img.jpg" style="width: 100%; border-radius: 50%;" alt="">
+                                    </div>
+                                    <div class="col-10 pt-3">
+                                        <p><strong> Mark Otto</strong> @mdo</p>
+                                        <button type="button" class="btn btn-outline-primary fw-medium"><span><i class="fa-solid fa-user"></i><i class="fa-solid fa-plus"></i></span> Follow</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                   <div class="row">
+                    <div class="col">
+                        <div class="card">
+                         <div class="card-body" style="background-color: beige;">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                   </div>
+
+                   <div class="row pt-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                              <p class="card-text">@ 2018 Boottrap <span style="color: rgb(112, 161, 235);"> About Help Terms Privacy Cookies Ads Info Brand Blog Status Apps Jobs Advertise</span></p>
+                            </div>
+                          </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap task5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main-text {
+        background-color: lightseagreen;
+        height: 17rem;
+    }
+
+    .for-card .card {
+        border: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .for-card span {
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px;
+    }
+    .last-footer a{
+        text-decoration: none;
+    }
+    .last-footer .icon{
+        width: 5rem;
+        height: 5rem;
+        font-size: 3rem;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="navbr">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light " href="#">Fresh</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="ms-auto">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+                                <a class="nav-link text-light fw-bold" href="#">Features</a>
+                                <a class="nav-link text-light fw-bold" href="#">Pricing</a>
+                                <a class="nav-link disabled text-light fw-bold" aria-disabled="true">Disabled</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="main-text text-center px-5">
+                <p class="fs-1 text-light">BIG BOLD CALL TO ACTION!</p>
+                <p class="fs-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio obcaecati
+                    harum maxime excepturi beatae! Officiis rem amet odit, consequatur ducimus ad eos, voluptatibus quo
+                    dolores hic mollitia optio? Laboriosam, at.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Culpa, aliquid repellat accusantium natus commodi est deserunt consequuntur! Culpa
+                    provident tenetur doloribus, iusto aperiam atque, magni sed voluptatibus omnis, impedit quam?
+                </p>
+                <button type="button" class="btn btn-light">Click me</button>
+                <button type="button" class="btn btn-dark">Purchase Now</button>
+            </div>
+            <div class="card-text">
+                <p class="fs-2 text-center fw-medium">WHAT TO DO</p>
+                <div class="for-card px-5">
+                    <div class="card-group">
+                        <div class="card">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Power Star</h5>
+                                <p class="card-text">This is a wider card text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <a href="#" style="text-decoration: none;">Click Here</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <span><i class="fa-solid fa-bullhorn"></i></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Broadcast</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional.This content is a little bit longer </p>
+                                <a href="#" style="text-decoration: none;">Click Here</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <span><i class="fa-solid fa-people-group"></i></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Talk a lot</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.This content is a little bit longer</p>
+                                <a href="#" style="text-decoration: none;">Click Here</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <span><i class="fa-solid fa-arrow-up-right-dots"></i></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Grow</h5>
+                                <p class="card-text">This lead-in to additional content. This card has even longer
+                                    content than the first to show that equal height action.</p>
+                                <a href="#" style="text-decoration: none;">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-text">
+            <p class="fs-2 text-center fw-medium">LATEST PROJECT</p>
+        </div>
+        <div class="images px-5">
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cardimg.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="last-text text-center">
+            <p class="fs-1">WE WOULD LOVE TO HEAR FROM YOU! <button type="button" class="btn btn-secondary">Get in
+                    Touch>></button></p>
+        </div>
+        <div class="last-footer bg-secondary px-5">
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card bg-secondary border-0">
+                    <div class="card-body">
+                      <h5 class="card-title text-light"><span><i class="fa-solid fa-link"></i></span>Links</h5>
+                      <div class="row mx-5">
+                        <div class="col">
+                            <a href="#" class="mx-2 text-light">HOME</a><br>
+                            <a href="#" class="mx-2 text-light">HOME</a><br>
+                            <a href="#" class="mx-2 text-light">HOME</a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="mx-2 text-light">HOME</a><br>
+                            <a href="#" class="mx-2 text-light">HOME</a><br>
+                            <a href="#" class="mx-2 text-light">HOME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card bg-secondary border-0">
+                    <div class="card-body">
+                      <h5 class="card-title text-light"><span><i class="fa-solid fa-thumbs-up"></i></span>Contact With Us</h5>
+                      <p class="text-light">We know you have at least one special profile...We would love to hear you.</p>
+                      <span class="icon text-light"><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card bg-secondary border-0">
+                    <div class="card-body">
+                      <h5 class="card-title text-light"><span><i class="fa-solid fa-envelope"></i></span> Subscribe</h5>
+                      <p class="card-text text-light">Subscribe to our newsletter to get latest news!</p>
+                      <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa-regular fa-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Username" aria-describedby="addon-wrapping">
+                        <button type="button" class="btn btn-light">Subscribe</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+
+</html>
